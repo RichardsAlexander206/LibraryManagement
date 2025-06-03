@@ -12,6 +12,3 @@ Books:
  - Harry Potter by JK Rowling
  - Heir of Fire by Sarah J Maas
  - Dune by Frank Herbert
-
-Known bugs:
- - Input validation to make sure fields such as phone number are right length. Doesn't cause error
