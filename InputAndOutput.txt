@@ -1,0 +1,435 @@
+/* Means not part of output
+
+
+/*Output 1
+
+Welcome! Are you a member or admin? To leave please enter 'exit'
+admin
+Which action would you like to complete?
+ 1) check out book
+ 2) check in book
+ 3) get loaned book 
+ 4) add book to catalogue 
+ 5) create new user account 
+ 6) change account information 
+ 7) go back
+4
+What is the name of the book to be added?
+The Last Kingdom
+What is the name of the author who wrote this book?
+Bernard Cornwall
+Book The Last Kingdom has been added
+Which action would you like to complete?
+ 1) check out book
+ 2) check in book
+ 3) get loaned book
+ 4) add book to catalogue
+ 5) create new user account
+ 6) change account information
+ 7) go back
+5
+What is the name of the account being created?
+Jenny
+What is the phone number of the account being created?
+999888777
+What is the address of the account being created?
+Rivendale
+New user created: name: Jenny phone number: 999888777 address: Rivendale id: 3
+Which action would you like to complete?
+ 1) check out book
+ 2) check in book
+ 3) get loaned book
+ 4) add book to catalogue
+ 5) create new user account
+ 6) change account information
+ 7) go back
+1
+What is the name of the book being loaned?
+The Last Kingdom
+What is the name of the account being loaned to?
+Jenny
+The Last Kingdom has been rented to Jenny.
+Which action would you like to complete?
+ 1) check out book
+ 2) check in book
+ 3) get loaned book
+ 4) add book to catalogue
+ 5) create new user account
+ 6) change account information
+ 7) go back
+6
+What is the id of the account you would like to change?
+3
+What field would you like to change? 
+ 1) name
+ 2) phone number
+ 3) address
+ 4) go back
+1
+What would you like to change it to?
+Matthew
+Which action would you like to complete?
+ 1) check out book
+ 2) check in book
+ 3) get loaned book
+ 4) add book to catalogue
+ 5) create new user account
+ 6) change account information
+ 7) go back
+6
+What is the id of the account you would like to change?
+3
+What field would you like to change? 
+ 1) name
+ 2) phone number
+ 3) address
+ 4) go back
+2
+What would you like to change it to?
+777666555
+Which action would you like to complete?
+ 1) check out book
+ 2) check in book
+ 3) get loaned book
+ 4) add book to catalogue
+ 5) create new user account
+ 6) change account information
+ 7) go back
+6
+What is the id of the account you would like to change?
+3
+What field would you like to change? 
+ 1) name
+ 2) phone number
+ 3) address
+ 4) go back
+3
+What would you like to change it to?
+Mount Doom
+Which action would you like to complete?
+ 1) check out book
+ 2) check in book
+ 3) get loaned book
+ 4) add book to catalogue
+ 5) create new user account
+ 6) change account information
+ 7) go back
+3
+What is the name of the book being tracked?
+The Last Kingdom
+Book currently is loaned by account:
+name: Matthew phone number: 777666555 address: Mount Doom id: 3
+Which action would you like to complete?
+ 1) check out book
+ 2) check in book
+ 3) get loaned book
+ 4) add book to catalogue
+ 5) create new user account
+ 6) change account information
+ 7) go back
+2
+What is the name of the book being returned?
+The Last Kingdom
+The Last Kingdom has been returned.
+Which action would you like to complete?
+ 1) check out book
+ 2) check in book
+ 3) get loaned book
+ 4) add book to catalogue
+ 5) create new user account
+ 6) change account information
+ 7) go back
+7
+Welcome! Are you a member or admin? To leave please enter 'exit'
+member
+
+Which action would you like to complete?
+1) search for a title or author
+2) view sorted catalogue
+3) go back
+1
+What is the name or author you would like to search for?
+Sarah J Mass
+Found books written by that author: Throne of Glass, Heir of Fire
+
+Which action would you like to complete?
+1) search for a title or author
+2) view sorted catalogue
+3) go back
+1
+What is the name or author you would like to search for?
+The Last Kingdom
+Book found: 
+Name: The Last Kingdom
+Author: Bernard Cornwall
+ID: 4
+
+Which action would you like to complete?
+1) search for a title or author
+2) view sorted catalogue
+3) go back
+2
+Would you like to sort by name or author?
+name
+
+Name: Dune
+Author: Frank Herbert
+ID: 3
+
+Name: Harry Potter
+Author: JK Rowling
+ID: 0
+
+Name: Heir of Fire
+Author: Sarah J Mass
+ID: 2
+
+Name: The Last Kingdom
+Author: Bernard Cornwall
+ID: 4
+
+Name: Throne of Glass
+Author: Sarah J Mass
+ID: 1
+
+
+Which action would you like to complete?
+1) search for a title or author
+2) view sorted catalogue
+3) go back
+2
+Would you like to sort by name or author?
+author
+
+Name: The Last Kingdom
+Author: Bernard Cornwall
+ID: 4
+
+Name: Dune
+Author: Frank Herbert
+ID: 3
+
+Name: Harry Potter
+Author: JK Rowling
+ID: 0
+
+Name: Heir of Fire
+Author: Sarah J Mass
+ID: 2
+
+Name: Throne of Glass
+Author: Sarah J Mass
+ID: 1
+
+
+Which action would you like to complete?
+1) search for a title or author
+2) view sorted catalogue
+3) go back
+3
+Welcome! Are you a member or admin? To leave please enter 'exit'
+exit
+
+/* Output 2
+Welcome! Are you a member or admin? To leave please enter 'exit'
+admin
+Which action would you like to complete?
+ 1) check out book
+ 2) check in book
+ 3) get loaned book 
+ 4) add book to catalogue 
+ 5) create new user account 
+ 6) change account information 
+ 7) go back
+1
+What is the name of the book being loaned?
+Nothing
+Invalid
+Dune           
+What is the name of the account being loaned to?
+Nobody
+Invalid
+Jimmy
+Dune has been rented to Jimmy.
+Which action would you like to complete?
+ 1) check out book
+ 2) check in book
+ 3) get loaned book
+ 4) add book to catalogue
+ 5) create new user account
+ 6) change account information
+ 7) go back
+2
+What is the name of the book being returned?
+Nothing
+Invalid
+Which action would you like to complete?
+ 1) check out book
+ 2) check in book
+ 3) get loaned book
+ 4) add book to catalogue
+ 5) create new user account
+ 6) change account information
+ 7) go back
+2
+What is the name of the book being returned?
+Throne of Glass
+Book cannot be returned.
+Which action would you like to complete?
+ 1) check out book
+ 2) check in book
+ 3) get loaned book
+ 4) add book to catalogue
+ 5) create new user account
+ 6) change account information
+ 7) go back
+2
+What is the name of the book being returned?
+Dune
+Dune has been returned.
+Which action would you like to complete?
+ 1) check out book
+ 2) check in book
+ 3) get loaned book
+ 4) add book to catalogue
+ 5) create new user account
+ 6) change account information
+ 7) go back
+3
+What is the name of the book being tracked?
+Dune
+Invalid
+Which action would you like to complete?
+ 1) check out book
+ 2) check in book
+ 3) get loaned book
+ 4) add book to catalogue
+ 5) create new user account
+ 6) change account information
+ 7) go back
+4
+What is the name of the book to be added?
+The Last kingdom
+What is the name of the author who wrote this book?
+Bernard
+Book The Last kingdom has been added
+Which action would you like to complete?
+ 1) check out book
+ 2) check in book
+ 3) get loaned book
+ 4) add book to catalogue
+ 5) create new user account
+ 6) change account information
+ 7) go back
+6
+What is the id of the account you would like to change?
+9
+What field would you like to change? 
+ 1) name
+ 2) phone number
+ 3) address
+ 4) go back
+1
+What would you like to change it to?
+John
+invalid id
+What is the id of the account you would like to change?
+1
+What field would you like to change? 
+ 1) name
+ 2) phone number
+ 3) address
+ 4) go back
+1
+What would you like to change it to?
+Bonny
+Which action would you like to complete?
+ 1) check out book
+ 2) check in book
+ 3) get loaned book
+ 4) add book to catalogue
+ 5) create new user account
+ 6) change account information
+ 7) go back
+7
+Welcome! Are you a member or admin? To leave please enter 'exit'
+member
+
+Which action would you like to complete?
+1) search for a title or author
+2) view sorted catalogue
+3) go back
+1
+What is the name or author you would like to search for?
+John
+
+Which action would you like to complete?
+1) search for a title or author
+2) view sorted catalogue
+3) go back
+2
+Would you like to sort by name or author?
+Neither /*Returns books in default order if name or author isn't specified
+
+Name: Harry Potter
+Author: JK Rowling
+ID: 0
+
+Name: Throne of Glass
+Author: Sarah J Mass
+ID: 1
+
+Name: Heir of Fire
+Author: Sarah J Mass
+ID: 2
+
+Name: Dune
+Author: Frank Herbert
+ID: 3
+
+Name: The Last kingdom
+Author: Bernard
+ID: 4
+
+
+Which action would you like to complete?
+1) search for a title or author
+2) view sorted catalogue
+3) go back
+3
+Welcome! Are you a member or admin? To leave please enter 'exit'
+admin
+Which action would you like to complete?
+ 1) check out book
+ 2) check in book
+ 3) get loaned book 
+ 4) add book to catalogue 
+ 5) create new user account 
+ 6) change account information 
+ 7) go back
+6
+What is the id of the account you would like to change?
+w
+invalid
+1
+What field would you like to change? 
+ 1) name
+ 2) phone number
+ 3) address
+ 4) go back
+2
+What would you like to change it to?
+w
+invalid
+76   /*No input validation to make sure it's the right length
+Which action would you like to complete?
+ 1) check out book
+ 2) check in book
+ 3) get loaned book
+ 4) add book to catalogue
+ 5) create new user account
+ 6) change account information
+ 7) go back
+7
+Welcome! Are you a member or admin? To leave please enter 'exit'
+exit

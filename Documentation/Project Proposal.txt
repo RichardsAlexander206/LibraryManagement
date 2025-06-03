@@ -1,0 +1,22 @@
+My project is a library management system. This system will allow users to view books within the library. Additionally, this system will allow librarians to check out / in books, manage user accounts, gather information on who has specified checked out books, and more. Users can expect this to be a text based program. Here is a brief outline of some capabilities of users and librarians:
+
+
+(Inputs and Outputs)
+User:
+Search Books
+Sort books
+
+
+Librarian(Extension of user):
+Add books
+Remove books
+Check out books to users
+Check in books
+Create user profiles
+Edit user profiles
+Get information on a book such as who has it checked out
+
+
+
+ADTS that will be used include array lists to manage the book catalogue and users, as well as abstractions for users, admins, and books
+I used Visual Studio Code with the Java programming language as my software, I additionally used Microsoft Visio for creating UML diagrams
