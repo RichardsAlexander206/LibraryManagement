@@ -1,6 +1,9 @@
 Project name: Library Manager
+
 Programmer name: Alexander Richards
+
 How to run: Open in editor or terminal, press run. Key things to know:
+
 Can add in your own books and users, preset list:
 
 Users:
